@@ -3,6 +3,7 @@
 A command-line Hangman game developed using Python as part of the Datheon Python Programming Internship.
 
 ## Features
+
 - Random word selection from an external word list.
 - Six incorrect guesses allowed.
 - Interactive letter guessing.
@@ -12,20 +13,28 @@ A command-line Hangman game developed using Python as part of the Datheon Python
 
 ## Project Structure
 
-Task-1-Hangman/
-├── hangman.py
-└── words.txt
+Datheon_Python_Programming_Internship/
+├── README.md
+└── Task-1-Hangman/
+    ├── hangman.py
+    └── words.txt
 
 ## Requirements
+
 - Python 3.x
 
 ## How to Run
 
-Navigate to the Task-1-Hangman folder and execute:
+1. Navigate to the project folder:
 
-python3 hangman.py
+   cd Task-1-Hangman
+
+2. Run the game:
+
+   python3 hangman.py
 
 ## Technologies Used
+
 - Python
 - Random module
 - pathlib module
